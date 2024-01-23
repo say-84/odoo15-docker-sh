@@ -12,7 +12,7 @@ services:
         - ./postgresql:/var/lib/postgresql/data
 
   odoo15:
-    image: odoo:15
+    image: odoo:15.0
     user: root
     depends_on:
       - db
