@@ -41,7 +41,7 @@ Start the container:
 docker-compose up
 ```
 
-* Then open `localhost:10015` to access Odoo 16.0. If you want to start the server with a different port, change **10015** to another value in **docker-compose.yml**:
+* Then open `localhost:10015` to access Odoo 15.0. If you want to start the server with a different port, change **10015** to another value in **docker-compose.yml**:
 
 ```
 ports:
@@ -127,8 +127,7 @@ server {
 # Odoo 15 screenshots
 
 <img src="screenshots/odoo-15-welcome-screenshot.png" width="50%">
-
 <img src="screenshots/odoo-15-apps-screenshot.png" width="100%">
-
-<
+<img src="screenshots/odoo-15-sales-screen.png" width="100%">
+<img src="screenshots/odoo-15-product-form.png" width="100%">
 
