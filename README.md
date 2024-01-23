@@ -19,7 +19,7 @@ and
 curl -s https://raw.githubusercontent.com/say-84/odoo15-docker-sh/main/run.sh | sudo bash -s odoo-two 11015 21015
 ```
 
-to set up another Odoo instance @ `localhost:11015` (default master password: `Sayed@2020`)
+to set up another Odoo instance @ `localhost:11015` (default master password: `Elblasy2022@1234`)
 
 Some arguments:
 * First argument (**odoo15-one**): Odoo deploy folder
@@ -79,7 +79,7 @@ The **addons/** folder contains custom addons. Just put your custom addons if yo
 
 * To change Odoo configuration, edit file: **etc/odoo.conf**.
 * Log file: **etc/odoo-server.log**
-* Default database password (**admin_passwd**) is `Sayed@2020`, please change it @ [etc/odoo.conf#L60](/etc/odoo.conf#L60)
+* Default database password (**admin_passwd**) is `Elblasy2022@1234`, please change it @ [etc/odoo.conf#L60](/etc/odoo.conf#L60)
 
 # Odoo container management
 
